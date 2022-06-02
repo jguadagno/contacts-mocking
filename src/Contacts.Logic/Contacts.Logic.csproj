@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <LangVersion>9</LangVersion>
+        <TargetFramework>net6.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\Contacts.Data\Contacts.Data.csproj" />
+      <ProjectReference Include="..\Contacts.Domain\Contacts.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
